@@ -19,3 +19,10 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
+
+
+-- onedark colorscheme config
+require('onedark').setup {
+  style = 'dark'
+}
+require('onedark').load()
